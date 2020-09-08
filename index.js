@@ -7,7 +7,7 @@ function destructivelyAppendKitten(array, element) {
   return array
 }
 
-function destructivelyAppendKitten(array, element) {
+function appendKitten(array, element) {
   array = [...array, element];
   return array
 }
