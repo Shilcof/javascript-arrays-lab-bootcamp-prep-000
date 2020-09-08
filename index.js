@@ -10,3 +10,15 @@ function destructivelyAppendKitten(array, element) {
 function appendKitten(array, element) {
   return [...array, element];
 }
+
+function appendKitten(array, element) {
+  return [...array, element];
+}
+
+function appendKitten(array, element) {
+  return [...array, element];
+}
+
+function appendKitten(array, element) {
+  return [...array, element];
+}
