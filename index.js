@@ -12,7 +12,7 @@ function destructivelyPrependKitten(array, element) {
   return array
 }
 
-function destructivelyAppendKitten(array, element) {
+function destructivelyRemoveLastKitten(array, element) {
   array = [...array, element];
   return array
 }
