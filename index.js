@@ -22,20 +22,20 @@ function destructivelyRemoveFirstKitten() {
   return kittens
 }
 
-function appendKitten(array, element) {
-  return array.concat(element);
+function appendKitten(element) {
+  return kittens.concat(element);
 }
 
-function prependKitten(array, element) {
-  return element.concat(array);
+function prependKitten(element) {
+  return element.concat(kittens);
 }
 
-function removeLastKitten(array, element) {
-  var len = array.length;
-  return array.slice(0,len-1);
+function removeLastKitten() {
+  var len = kittens.length;
+  return kittens.slice(0,len-1);
 }
 
-function removeFirstKitten(array, element) {
-  var len = array.length;
-  return array.slice(1);
+function removeFirstKitten() {
+  var len = kittens.length;
+  return kittens.slice(1);
 }
