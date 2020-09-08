@@ -7,19 +7,19 @@ function destructivelyAppendKitten(element) {
   return kittens
 }
 
-function destructivelyPrependKitten(array, element) {
-  array.unshift(element);
-  return array
+function destructivelyPrependKitten(element) {
+  kittens.unshift(element);
+  return kittens
 }
 
-function destructivelyRemoveLastKitten(array, element) {
-  array.pop();
-  return array
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens
 }
 
-function destructivelyRemoveFirstKitten(array, element) {
-  array.shift();
-  return array
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
+  return kittens
 }
 
 function appendKitten(array, element) {
