@@ -27,6 +27,7 @@ function appendKitten(element) {
 }
 
 function prependKitten(element) {
+  element = [element];
   return element.concat(kittens);
 }
 
