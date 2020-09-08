@@ -16,11 +16,11 @@ function prependKitten(array, element) {
 }
 
 function removeLastKitten(array, element) {
-  var len = array.length()
+  var len = array.length;
   return array.slice(0,len-1);
 }
 
 function removeFirstKitten(array, element) {
-  var len = array.length()
+  var len = array.length;
   return array.slice(1);
 }
